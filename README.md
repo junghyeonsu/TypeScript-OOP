@@ -181,30 +181,9 @@ npm run build
   <section id="top">
     <h3>재료 추가하기</h3>
     <form autocomplete="" class="material-add-form">
-      <input
-        type="text"
-        name="material-name"
-        placeholder="추가할 상품명"
-        required=""
-        autofocus=""
-        maxlength="20"
-      />
-      <input
-        type="number"
-        name="material-price"
-        placeholder="추가할 상품 금액"
-        required=""
-        min="100"
-        step="10"
-      />
-      <input
-        type="number"
-        name="material-quantity"
-        placeholder="추가할 상품 수량"
-        required=""
-        min="1"
-        step="1"
-      />
+      <input type="text" name="material-name" placeholder="추가할 상품명" required="" autofocus="" maxlength="20" />
+      <input type="number" name="material-price" placeholder="추가할 상품 금액" required="" min="100" step="10" />
+      <input type="number" name="material-quantity" placeholder="추가할 상품 수량" required="" min="1" step="1" />
       <button type="submit" id="material-add-button">추가하기</button>
     </form>
   </section>
@@ -292,7 +271,7 @@ npm run build
 
 #### 💡 기능
 
-- [ ] 주문 받기를 클릭하면 랜덤으로 주문 목록 테이블에 추가됩니다.
+- [x] 주문 받기를 클릭하면 랜덤으로 주문 목록 테이블에 추가됩니다.
 - [ ] 주문 목록의 `수정하기`를 클릭하면 해당 주문을 수정할 수 있습니다.
   - TIP: `div 태그에 contenteditable 속성을 부여합니다.`
 - [ ] 주문 목록의 `삭제하기`를 클릭하면 해당 주문이 삭제됩니다.
