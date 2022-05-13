@@ -1,6 +1,10 @@
+import OrderList from './OrderList';
+
 class App {
+  orderList;
+
   constructor() {
-    console.log('hello');
+    this.orderList = new OrderList();
   }
 }
 
